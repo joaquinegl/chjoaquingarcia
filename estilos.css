@@ -8,15 +8,12 @@
 
 body {
     background: black;
-
 }
-
 
 header {
     height: 100%;
     width: 100%;
 }
-
 
 .navbar {
     font-size: 20px;
@@ -59,61 +56,7 @@ header {
   }
   
 
-
-/* .logoHeader {    
-    float: left;
-    height: auto;
-    padding-top: 10px;
-} */
-
-/* .navbar {
-    float: center;
-    height: 50px;
-} */
-
-/* .barra ul {
-    padding-top: 8px;
-} */
-/* 
-li {
-    list-style: none;
-    display: inline-block;
-    font-size: 25px;
-    padding: 15px;
-}
-
-li a {
-    text-decoration: none;
-    color: white;
-}
-
-li a:hover {
-    color: black;
-} */
-
-
-
-
 /* HOME */
-
-
-    
-/* .contImgHome {
-    
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.imgHome {
-    height: auto;
-    width: auto;
-    margin-bottom: 10px;
-} */
 
 .contImgHome {
     display: flex;
@@ -129,36 +72,17 @@ li a:hover {
     align-items: center;
 }
 
-
 .btn {
 width: 100%;
 }
 
-/* .videoHome {
-    padding: 30px;
-} */
-
-
-/* .contTxt {
-    padding: 40px;
-}
-
-.txtHome {
-    color: rgb(157, 157, 157);
-    text-align: center;
-} */
-
-
 
 /* ABOUT ME */
-
 
 .txtAboutMe {
     text-align: justify;
     padding: 30px;
 }
-
-
 
 
 /* MEDIA (breakpoint:*/
@@ -219,8 +143,6 @@ width: 100%;
     height: 300px;
 }
 
-
-
 .contenedorDeVideos {
     height: 100%;
     width: 100%;
@@ -228,31 +150,7 @@ width: 100%;
 }
 
 
-
 /* REFERENCES */
-
-
-
-/* .card {
-display: flex;
-padding-top: 30px;
-align-items: center;
-
-}
-
-.contImg {
-    width: auto;
-    padding-left: 100px;
-
-}
-
-.profileImg {
-    border-radius: 50%;
-}
-
-.txt {
-    text-align: left;
-} */
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -300,7 +198,6 @@ align-items: center;
     transform: rotateY(180deg);
   }
 
-
   .contGralCards {
     display: flex;
     align-items: center;
@@ -310,26 +207,11 @@ align-items: center;
   }
 
 
-
 /* CONTACT */
 
 form {
     padding: 80px;
     height: 100vh;
-
-}
-
-
-/* .contForm {
-    padding: 100px;
-    height: auto;
-    background-image: url(img/fotoForm.png);
-    background-repeat: no-repeat;
-}
-
-.form {
-    color: white;
-    background-color: transparent;
 }
 
 
@@ -366,7 +248,6 @@ footer {
 }
 
 
-
 /* MEDIA QUERIES */
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -393,6 +274,8 @@ footer {
     }
   }
 
+
+/* GALERIA MOSAICO   */
 @media only screen and (max-width:640px){
     .galeriaFotos{
         width: auto;
@@ -441,84 +324,3 @@ footer {
 
 
 
-/* {
-    padding: 0px;
-    margin: 0px;
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 120px;
-}
-
-.logoBarra {
-    margin: all;
-    width:5%;
-    height: auto;
-    float: left;
-    margin-right: 0px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
-
-nav {
-    background-color: black;
-    float: center;
-    line-height: 60px;
-    
-}
-
-nav ul {
-    list-style: none;
-    overflow: hidden; 
-    height: 130px;
-    float: center;
-}
-
-nav ul li {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 20px;
-}
-
-nav ul li a {
-    display: block; 
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li:hover {
-    background: #757575;
-}    
-
-.bloquesContenidos {
-    padding: 50px;
-}
-
-.textoImp {
-    color: rgb(182, 182, 182);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: justify;
-}
-
- 
-
-
-
-
-
-
-
-.contenedorDeVideos {
-    display: flex;
-    width: 100%;
-    align-content: space-evenly;
-}
-
-.videoMedia {
-    align-items: center;
-    align-content: center;
-}
