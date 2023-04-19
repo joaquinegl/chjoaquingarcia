@@ -58,23 +58,22 @@ header {
 
 /* HOME */
 
-.contImgHome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-} 
-
-.imgItem {
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.imgHome {
+    height: auto;
+    width: 100%;
+    padding: 10px;
 }
 
-.btn {
-width: 100%;
+.contButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
 }
+
+
 
 
 /* ABOUT ME */
@@ -143,11 +142,7 @@ width: 100%;
     height: 300px;
 }
 
-.contenedorDeVideos {
-    height: 100%;
-    width: 100%;
-    margin-top: 30px;    
-}
+
 
 
 /* REFERENCES */
@@ -204,6 +199,7 @@ width: 100%;
     flex-direction: column;
     padding: 40px;
     text-align: center;
+    height: 100vg;
   }
 
 
