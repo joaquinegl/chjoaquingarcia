@@ -1,0 +1,27 @@
+.contTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.imgHome {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5%;
+    border:1px solid rgba(255,255,255,0);
+}
+
+
+.contButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+

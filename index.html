@@ -10,8 +10,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="img/logoacro.ico" type="image/x-icon">
     <title>Home</title>
@@ -31,19 +31,25 @@
     </header>
     
     <main>
-      <img class="imgHome" src="img/imgjoaquin.png" alt="imagen1">
+
+      <div class="contTxt">
+        <h1 data-aos="fade-down" data-aos-duration="1000">Professional Aerialist</h1>
+        <h2 data-aos="fade-down" data-aos-duration="1000">Acro JG</h2>
+      </div>
+    
+      <img data-aos="zoom-out-right" data-aos-duration="1000" class="imgHome" src="img/imgjoaquin.png" alt="imagen1">
       <div class="contButton">
         <a href="https://vimeo.com/user57425211"><button type="button" class="btn btn-warning btn-lg btn-block">NEW VIMEO PROFILE</button></a>
       </div>
       
 
-      <img class="imgHome" src="img/imgvoala.png" alt="imagen1">
+      <img data-aos="zoom-out-right" data-aos-duration="1000" class="imgHome" src="img/imgvoala.png" alt="imagen1">
       <div class="contButton">
         <a href="https://www.youtube.com/watch?v=UNQ-ZxWTY8w&ab_channel=JOR%E2%80%94G%E2%80%94ANDO"><button type="button" class="btn btn-warning btn-lg btn-block">NEW TOUR IN MEXICO</button></a>
       </div>
 
 
-      <img class="imgHome" src="img/imgmoare.png" alt="imagen1">
+      <img data-aos="zoom-out-right" data-aos-duration="1000" class="imgHome" src="img/imgmoare.png" alt="imagen1">
       <div class="contButton">
         <a href="https://www.youtube.com/watch?v=-qnaefeYszY&ab_channel=Timi%C8%99oara2023"><button type="button" class="btn btn-warning btn-lg btn-block">TOUR IN RUMANIA</button></a>
       </div>
@@ -75,6 +81,11 @@
     }
   }
   </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 
