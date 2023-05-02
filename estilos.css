@@ -133,8 +133,19 @@ footer .txtFooter {
   padding-bottom: 20px;
 }
 
+@media screen and (max-width: 600px) {
+  .imgHome {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5%;
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+}
 .txtAboutMe {
-  text-align: justify;
+  text-align: center;
   padding: 10px;
 }
 
@@ -296,7 +307,14 @@ footer .txtFooter {
   font-style: oblique;
 }
 
+.contTitulo {
+  margin-top: 40px;
+  text-align: center;
+}
+
 form {
-  padding: 80px;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
   height: 100vh;
 }/*# sourceMappingURL=estilos.css.map */

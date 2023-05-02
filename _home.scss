@@ -25,3 +25,14 @@
     padding-bottom: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .imgHome {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5%;
+        border:1px solid rgba(255,255,255,0);
+    }
+}
