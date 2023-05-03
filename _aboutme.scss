@@ -1,4 +1,28 @@
-.txtAboutMe {
-    text-align: center;
-    padding: 10px;
+.contTxtAbtMe {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    .txtAbtMe {
+        text-align: center;
+        padding: 30px;
+    }
+
+
+}
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+    .contTxtAbtMe {
+        display: grid;
+        grid-template-columns: auto;
+        
+        .txtAbtMe {
+            text-align: center;
+            padding: 20px;
+        }
+    }
 }
