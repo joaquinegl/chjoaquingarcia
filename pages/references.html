@@ -21,6 +21,7 @@
 
 <body>
   <main>
+    <!-- Barra de navegación -->
     <header>
       <nav class="topnav" id="myTopnav">
         <a href="../index.html">Home</a>
@@ -31,12 +32,13 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
       </nav>
     </header>
-      
+    
+    <!-- Tarjetas animadas -->
     <div class="contGralCards">
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="../img/referencesImg1.png" alt="Avatar" style="width:300px;height:200px;">
+            <img src="../img/referencesImg1.png" alt="picture" style="width:300px;height:200px;">
           </div>
           <div class="flip-card-back">
             <h1>Juan Pablo Rosetti</h1>
@@ -45,7 +47,6 @@
           </div>
         </div>
       </div>
-
       <div class="cardText">
         <p>"Joaquín is excellent personally and professionally! He is extremely responsible, proactive, and permanently demonstrates his high commitment and willingness to meet the objectives".</p>
       </div>
@@ -53,7 +54,7 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="../img/referencesImg2.png" alt="Avatar" style="width:300px;height:200px;">
+            <img src="../img/referencesImg2.png" alt="picture" style="width:300px;height:200px;">
           </div>
           <div class="flip-card-back">
             <h1>Nahuel Fernandez</h1>
@@ -69,7 +70,7 @@
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="../img/referencesImg3.png" alt="Avatar" style="width:300px;height:200px;">
+            <img src="../img/referencesImg3.png" alt="picture" style="width:300px;height:200px;">
           </div>
           <div class="flip-card-back">
             <h1>Pablo Cuello</h1>
@@ -97,16 +98,20 @@
   </footer>
 
 
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
+  <!-- Bootstrap: -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
 
 </body>
 
